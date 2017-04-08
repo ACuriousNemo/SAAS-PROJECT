@@ -21,8 +21,9 @@ h1, h2, h3 {
     font-family: 'Macondo';
 }
   
-body, .navbar {
-    background: #dbe6f6; /* fallback for old browsers */
+ .navbar , .home {
+    // got the gradient from uigradients.com 
+  background: #dbe6f6; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #dbe6f6, #c5796d); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #dbe6f6, #c5796d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -30,3 +31,11 @@ body, .navbar {
 .navbar {
     border: none;
 }
+ // compensating for the default navbar margin
+ .home {
+     margin-top: -20px;
+ }
+ 
+ h1 , h4 {
+     color: white;
+ }
