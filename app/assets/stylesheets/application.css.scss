@@ -36,11 +36,20 @@ h1, h2, h3 {
  .home {
      margin-top: -20px;
  }
+ .navbar-brand {
+  font-family: 'Macondo' , 'Arial';
+ }
+  .navbar-default .navbar-toggle .icon-bar {
+   background-color: white; 
+  }
+ .navbar-default .navbar-toggle {
+  border: 1px solid white; 
+  &:hover, &:focus {
+   background-color: #c5796d;
+  }
+ }
  
  h1 , h4     {
-     color: white;
+     color: black;
  }
- .navbar-default .navbar-brand:hover {
-     color:#F3904F;
-     opacity: 0.5;
- }
+ 
